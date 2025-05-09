@@ -1,10 +1,7 @@
 # Write a Python program to access values between index 1 and 5 in a tuple
-nums = (1, 2, 3, 4, 5)
+nums = (0, 1, 2, 3, 4, 5, 6, 7, 8, 9)
 
-for num in nums:
-    print(num)
+print(nums[1:5])
 
 # Write a Python program to access alternate values between index 1 and 5 in a tuple
-for num in nums:
-    if num % 2 == 1:
-        print(num)
+print(nums[1:5:2])
